@@ -1,0 +1,23 @@
+git init             ---> initialize local repository
+git status -s
+git status           --->  to check the stautus whether its currently (in staging area, commit)
+git add . or filename  ---> moving into a staging area
+git log       --> to check the details of the versioning, it includes the author, date, time 
+git config    --> to specify the username and emaild
+git config --list   --> to specify the username and emaild
+git commit -am "message"   --> files which are in staging area will be commited in local repository
+git config remote.origin.url https:
+git push -u origin master
+git pull
+
+
+
+
+
+git init
+git add .
+git commit -m "firstcommit"
+git commit -am "secondcommit"
+git log
+git config remote.origin.url https://github.com/venkataravint/venkat.git
+git push -u origin master
